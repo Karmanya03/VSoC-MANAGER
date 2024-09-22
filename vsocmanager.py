@@ -23,7 +23,7 @@ PARTICIPANTS_PAGE_SIZE = 5
 bot = commands.Bot(command_prefix='&', intents=discord.Intents.all())
 
 # Cloud SQLite connection
-CLOUD_DB_URL = 'sqlitecloud://cnqdxma8ik.sqlite.cloud:8860?apikey=OG2SQ5GDDmgvkkkqUItb6rhHzIloN17KpciwabUuwPM'
+CLOUD_DB_URL = 'Your_SQLiteCloud_ConnectionString'
 
 def get_cloud_cursor():
     conn = sqlitecloud.connect(CLOUD_DB_URL)
